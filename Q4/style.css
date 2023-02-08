@@ -209,11 +209,14 @@ main {
     flex-direction: column;
   }
   footer {
-    padding: 2rem;
+    padding: 2.5rem;
     margin-top: 4rem;
   }
+  footer p {
+    margin: 4rem 0;
+  }
 }
-@media screen and (max-width: 300px) {
+@media screen and (min-width: 237px) and (max-width: 335px) {
   .p-head {
     /* display: none; */
     width: fit-content;
@@ -243,7 +246,7 @@ main {
   }
   footer {
     padding: 2rem;
-    margin-top: 10rem;
+    margin-top: 7rem;
   }
 }
 @media screen and (max-width: 237px) {
