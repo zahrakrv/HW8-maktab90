@@ -259,7 +259,7 @@ ion-icon {
 }
 @media screen and (min-width: 821px) and (max-width: 920px) {
   .main-box {
-    margin-top: 45rem;
+    margin-top: 35rem;
     padding-bottom: 5rem;
     display: flex;
     flex-direction: column;
