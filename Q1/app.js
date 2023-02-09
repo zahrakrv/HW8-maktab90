@@ -1,12 +1,10 @@
 `use strict`;
-let newObj = {};
+let user = { family: "bary", age: 20 };
 function func() {
   return function () {
-    let user = { family: "bary", age: 20 };
-    user.name = "Jack";
-    // this.name = "Jack";
+    this.name = "Jack";
     return user;
-  };
+  }.bind(user);
 }
 let result = func();
 console.log(result());
