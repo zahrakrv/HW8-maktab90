@@ -1,7 +1,7 @@
 `use strict`;
 // const creator = function(element,func){
 function creator(element, func) {
-  element = document.createElement("element");
+  element = document.createElement(element);
   document.body.appendChild(element);
   func(element);
 }
